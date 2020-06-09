@@ -11,7 +11,3 @@ Route::get('/welcome', function () {
 Route::get('/home', function () {
     return view('home');
 });
-
-Route::get('/numbers', function () {
-    return view('numbers');
-});
